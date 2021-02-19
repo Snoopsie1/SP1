@@ -210,7 +210,7 @@ void updateEntities()
     image(food.kingF, 300, 75, size+40, size+40);
     textSize(30);
     fill(#F2542D);
-    text("You've collected all the fruit!", 130, 390);
+    text("You've collected all the food!", 130, 390);
     text("Even The King of Fruits!", 150, 410);
     text("Which means...", 225, 460);
     text("You are the new King of Food!", 130, 480);
