@@ -25,7 +25,7 @@ void setup()
   frameRate(60);
   gameOver = loadImage("MadPixelBiver.png");
   beegBiver = loadImage("BeegPixelBiver.png");
-  font = createFont("AvenirNext-Heavy", 80, true);
+  font = createFont("rainyhearts.ttf", 80, true);
   textFont(font);
   file = new SoundFile(this, "Dogbass.mp3");
   file2 = new SoundFile(this, "FoodPickup.mp3");
@@ -86,7 +86,7 @@ void drawBoard()
   }
 
   fill(246, 64, 79);
-  textSize(40);
+  textSize(50);
   text("Biver", 420, 60);
 }
 
@@ -208,7 +208,7 @@ void updateEntities()
     rect(300, 425, 475, 150);
     image(beegBiver, 300, 200, -300, -250);
     image(food.kingF, 300, 75, size+40, size+40);
-    textSize(22);
+    textSize(30);
     fill(#F2542D);
     text("You've collected all the food!", 130, 390);
     text("Even The King of Fruits!", 150, 410);
@@ -245,7 +245,7 @@ void updateEntities()
 
     image(gameOver, 300, 300, -350, -300);
     fill(#F5FF6F);
-    textSize(150);
+    textSize(200);
 
     text("G", 100, 150);
     text("A", 203, 165);
