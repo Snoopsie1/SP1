@@ -2,6 +2,10 @@
  
 Her er mit spil.
 
+Hvis spillet får load fejl, så husk at unpacke den her zip-fil da jeg har nogle billeder og lyd filer jeg har sat ind i spillet:)
+
+Man styrer på pile-tasterne. 
+
 Mit spil indeholder både en fjollet Game Over og Victory Screen.
 Der også lyde og musik.
 Jeg har haft min volume ret lavt imens jeg lavede det her.
