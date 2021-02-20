@@ -1,5 +1,10 @@
 # SP1
  
+
+// UPDATE // 
+Har tilføjet et Sound-Library så man ikke behøver selv at hente det, just in-case.
+////////////
+
 Her er mit spil.
 
 Hvis spillet får load fejl, så husk at unpacke den her zip-fil da jeg har nogle billeder og lyd filer jeg har sat ind i spillet:)
